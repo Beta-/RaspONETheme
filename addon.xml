@@ -5,7 +5,7 @@
     </requires>
     <extension
     point="xbmc.gui.skin"
-    debugging="false"
+    debugging="true"
     effectslowdown="1.0">
         <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
     </extension>
@@ -15,5 +15,14 @@
         <news>The Skin Addon.xml Is Generated</news>
         <platform>linux</platform>
         <license>Property Of RaspONE</license>
+        <forum></forum>
+        <website></website>
+        <source>https://github.com/Beta-/RaspONETheme.git</source>
+        <assets>
+            <icon></icon>
+            <fanart></fanart>
+            <screenshot></screenshot>
+            <screenshot></screenshot>
+        </assets>
     </extension>
 </addon>
