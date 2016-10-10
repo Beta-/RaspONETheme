@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="skin.raspone" name="RaspONE" version="0.0.1" provider-name="RaspONE Team">
+    <requires>
+        <import addon="xbmc.gui" version="5.10.0"/>
+    </requires>
+    <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+        <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">This is the official skin for the ONE Entertrainment System.</summary>
+        <description lang="en_GB">This is the official skin for the ONE Entertrainment System.</description>
+        <news>The Skin Addon.xml Is Generated</news>
+        <platform>linux</platform>
+        <license>Property Of RaspONE</license>
+    </extension>
+</addon>
